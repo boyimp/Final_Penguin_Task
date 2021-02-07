@@ -3,7 +3,7 @@
 <-- 1. List all course.name and teachers.name -->
 SELECT courses.name,
 	   teachers.name
-FROM courses,
+FROM courses
 FULL JOIN
 	 teachers
 	 on courses.teacher_id = teachers.id;
